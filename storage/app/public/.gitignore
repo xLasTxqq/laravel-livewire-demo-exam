@@ -1,2 +1,6 @@
 *
 !.gitignore
+!images
+images/*
+!images/about_img.jpeg
+!images/logo.jpg

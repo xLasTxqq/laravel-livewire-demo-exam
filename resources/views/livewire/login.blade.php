@@ -24,14 +24,14 @@
             <div>
                 <x-label for="login" :value="__('Логин *')" />
 
-                <x-input wire:model.lazy="login" id="login" class="block mt-1 w-full" type="text" name="login" :value="old('login')" autofocus />
+                <x-input wire:model.lazy="login" placeholder="admin" id="login" class="block mt-1 w-full" type="text" name="login" :value="old('login')" autofocus />
             </div>
 
             <!-- Password -->
             <div class="mt-4">
                 <x-label for="password" :value="__('Пароль *')" />
 
-                <x-input wire:model.lazy="password" id="password" class="block mt-1 w-full" type="password" name="password" autocomplete="current-password" />
+                <x-input wire:model.lazy="password" placeholder="admin66" id="password" class="block mt-1 w-full" type="password" name="password" autocomplete="current-password" />
             </div>
 
             <!-- Remember Me -->
